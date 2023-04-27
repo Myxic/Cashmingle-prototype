@@ -89,8 +89,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Change Password</h2>
-                    <p>Change Password here</p>
+                    <h2>Check AccountNumber</h2>
+                    <p>Check if an acccount number is registered with us here</p>
                 </div>
 
                 <div class="row gx-lg-0 gy-4">
@@ -99,28 +99,17 @@
 
                     <div class="col-lg-8">
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-
-                            <div class="form-group mt-3">
-                                <input type="password" class="form-control" name="AccountPassword" id="name" placeholder="Old Password"
-                                    required>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input type="password" name="AccountPassword" class="form-control" id="name"
-                                        placeholder="NewPassword" required>
+                           
+                                <div class="form-group mt-3">
+                                    <input type="text" name="AccountNumber" class="form-control" id="name"
+                                        placeholder="Your AccountNumber" required>
                                 </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="password" class="form-control" name="AccountPassword" id="name"
-                                        placeholder="Confirm NewPassword" required>
-                                </div>
-                            </div>
-                            
-                          
+                                <span></span><!-- FullName of the  AccountNumber-->
+                        
                             <div class="my-3">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="sent-message">Your request has been sent. Thank you!</div>
                             </div>
                             <div class="text-center"><button type="submit">Submit</button></div>
                         </form>
@@ -157,6 +146,8 @@
                     <h4>Useful Links</h4>
                     <ul>
                         <li><a href="./UsersPage.html">Home</a></li>
+                        <!-- <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li> -->
                         <li><a href="#">Terms of service</a></li>
                         <li><a href="#">Privacy policy</a></li>
                     </ul>
@@ -169,7 +160,7 @@
                         <li><a href="./Withdrawal.html">Withdrawal</a></li>
                         <li><a href="./Transfer.html">Transfer</a></li>
                         <li><a href="./ChangePin.html">Change Pin</a></li>
-                        <li><a href="./TransactionHistory.html">Transation History</a></li>
+                        <li><a href="./Transfer.html">Transation History</a></li>
                     </ul>
                 </div>
 

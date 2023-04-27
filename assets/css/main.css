@@ -59,6 +59,22 @@ h6 {
   font-family: var(--font-primary);
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  resize: none;
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -1306,6 +1322,8 @@ section {
 
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
+.contact .php-email-form input[type=password],
+.contact .php-email-form input[type=number],
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
